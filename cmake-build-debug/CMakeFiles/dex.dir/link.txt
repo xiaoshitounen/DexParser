@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/dex.dir/main.cpp.o CMakeFiles/dex.dir/DexParseHelper.cpp.o CMakeFiles/dex.dir/DexShowHelper.cpp.o CMakeFiles/dex.dir/class/annotation/AnnotationParser.cpp.o -o dex 
