@@ -1,5 +1,5 @@
 # DexParser
-dex 文件
+dex 文件主要内容：
 - header
 - string_ids
 - type_ids
@@ -8,5 +8,5 @@ dex 文件
 - method_ids
 - class_def
 
-其中，这些内容的除了 class_def，都已经解析完毕了。class_def 最外层也已经解析完毕，内层内容也解析了一部分，其他部分都是堆代码就不继续了。
+这些内容除了 class_def，都已经解析完毕了。class_def 最外层也已经解析完毕，内层内容也解析了一部分，其他部分都是堆代码就不继续了。
 后续可以考虑换种方式重写一边解析。
